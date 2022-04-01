@@ -1,2 +1,140 @@
+/* ///////////////////// GENERALES //////////////////////// */
+
+body{
+    background-color: #cacaca;
+}
+
+.v-color{
+    color: #133183 !important;
+}
+.pointer{
+    cursor: pointer;
+}
+.text-justify{
+    text-align: justify;
+}
+
+.border-right{
+    border-right: 2px solid;
+}
+
+.carousel-control{ border: none; background-color: transparent; }
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23092b82' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23092b82' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 
 }
+
+.carousel-indicators button{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100% !important;
+    margin-right: 10px !important;
+    border: 2px solid #092b82 !important;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #092b82;
+}
+
+.btn-vision{
+    border: 1px solid #092b82 !important;
+    background-color: #092b82 !important;
+}
+
+/* ///////////////////// NAVBAR //////////////////////// */
+
+.bg_navbar{
+    background-image: url("https://via.placeholder.com/1920x400.png/ff6915/f99760?text=Imagen%20Nav");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-color: #ff6915;
+    min-height: 200px;
+}
+
+.bg-vision{
+    background-color: #e8dcd8 !important;
+}
+
+.font-nav{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* ///////////////////// FOOTER //////////////////////// */
+
+.a_mail{
+    text-decoration: none !important;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.bg-footer{
+    background-image: url("../images/footer/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #092b82;
+}
+
+.footer-line1{
+    height: 10px;
+    background-color: #fec293;
+}
+
+.footer-line2{
+    background-color: #e86b00;
+}
+
+
+
+/* ///////////////////// INDEX //////////////////////// */
+
+.somoslens{
+    background-color: #e86b00;
+    color: #023080;
+    letter-spacing: 6px;
+    font-size: 4.5em;
+    font-weight: 600;
+}
+
+.banner1{
+    background-color: #092b82;
+}
+
+.banner1 .text{
+    font-size: 4em;
+    color: #fff;
+    letter-spacing: -2px;
+    font-weight: bold;
+}
+
+.banner1 hr{
+    color: #ff6914;
+    height: 5px;
+    margin: 3rem 0;
+    background-color: #ff6914;
+    opacity: 1;
+}
+
+.banner2{
+    background-color: #e86b00;
+}
+
+
+.img_lens{
+    border: 4px solid #092b82;
+}
+
+
+
+
+
+
+
+
+
