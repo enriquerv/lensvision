@@ -12,4 +12,11 @@ class FrontEndController extends Controller
     	$title = 'INICIO';
     	return view('index', compact('active', 'title'));
     }
+
+    public function us()
+    {
+        $active = 'us';
+        $title = 'NOSOTROS';
+        return view('us', compact('active', 'title'));
+    }
 }

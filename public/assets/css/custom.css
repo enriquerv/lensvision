@@ -47,6 +47,13 @@ body{
     background-color: #092b82 !important;
 }
 
+.btn-lens{
+    background-color: #e86b00 !important;
+    border: 1px solid #e86b00;
+    color: #092b82 !important;
+    font-weight: 800;
+}
+
 /* ///////////////////// NAVBAR //////////////////////// */
 
 .bg_navbar{
@@ -64,6 +71,11 @@ body{
 .font-nav{
     font-size: 1.2em;
     font-weight: 600;
+}
+
+.active_nav{
+    font-weight: 800;
+    text-decoration: underline;
 }
 
 /* ///////////////////// FOOTER //////////////////////// */
@@ -131,8 +143,50 @@ body{
 }
 
 
+/* ///////////////////// US //////////////////////// */
 
+.us .first{
+    font-size: 1.3em;
+    color: #092b82;
+    font-weight: 600;
+}
 
+.us_miviva{
+    background-color: #e86b00;
+}
+
+.miviva h2{
+    color: #092b82;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.text_miviva{
+    color: #fff;
+    font-size: 1.5em;
+    text-align: justify !important;
+    font-weight: 500;
+}
+
+.carousel-indicators-us {
+    bottom: -75px;
+}
+
+.card-services{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card-body-services{
+    background-color: #092b82;
+}
+
+.card-services h5{
+    color: #e86b00;
+    font-weight: 800;
+    font-size: 1.5em;
+}
 
 
 

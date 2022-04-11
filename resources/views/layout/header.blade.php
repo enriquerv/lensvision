@@ -16,16 +16,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
          <ul class="navbar-nav w-100">
             <li class="nav-item w-25 text-center">
-               <a class="nav-link font-nav v-color pointer active" href="#">INICIO</a>
+               <a class="nav-link font-nav v-color pointer {{ $active == 'index' ? 'active_nav' : '' }}" href="{{ URL::route('index') }}">INICIO</a>
             </li>
             <li class="nav-item w-25 text-center">
-               <a class="nav-link font-nav v-color pointer" href="#">NOSOTROS</a>
+               <a class="nav-link font-nav v-color pointer {{ $active == 'us' ? 'active_nav' : '' }}" href="{{ URL::route('us') }}">NOSOTROS</a>
             </li>
             <li class="nav-item w-25 text-center">
-               <a class="nav-link font-nav v-color pointer" href="#">SERVICIOS</a>
+               <a class="nav-link font-nav v-color pointer {{ $active == 'services' ? 'active_nav' : '' }}" href="#">SERVICIOS</a>
             </li>
             <li class="nav-item w-25 text-center">
-               <a class="nav-link font-nav v-color pointer" href="#">CONTACTO</a>
+               <a class="nav-link font-nav v-color pointer {{ $active == 'contact' ? 'active_nav' : '' }}" href="#">CONTACTO</a>
             </li>
          </ul>
       </div>
