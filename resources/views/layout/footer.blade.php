@@ -5,9 +5,9 @@
 				<a class="a_mail" href="mailto:lensvision1@gmail.com" target="_blank">lensvision1@gmail.com</a>
 			</div>
 			<div class="col-md-4 mt-3 text-center text-white">
-				<img class="mx-3" src="https://via.placeholder.com/50x50.png/ffffff/133183?text=SM" alt="WhatsApp">
-				<img class="mx-3" src="https://via.placeholder.com/50x50.png/ffffff/133183?text=SM" alt="WhatsApp">
-				<img class="mx-3" src="https://via.placeholder.com/50x50.png/ffffff/133183?text=SM" alt="WhatsApp">
+				<img class="mx-3" src="{{ env('APP_URL') }}/assets/images/footer/wa.png" alt="WhatsApp" width="70px">
+				<img class="mx-3" src="{{ env('APP_URL') }}/assets/images/footer/face.png" alt="Facebook" width="70px">
+				<img class="mx-3" src="{{ env('APP_URL') }}/assets/images/footer/insta.png" alt="Instagram" width="70px">
 			</div>
 			<div class="col-md-4 mt-3 text-center text-white">
 				<a class="a_mail" href="mailto:lensvision_@hotmail.com" target="_blank">lensvision_@hotmail.com</a>

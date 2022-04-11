@@ -1,11 +1,12 @@
 <div class="container-fluid bg_navbar w-100 d-flex flex-row">
    <p class="w-50 mt-4">
-      <img src="https://via.placeholder.com/200x70.png/133183/ffffff?text=Logo" alt="Logo" class="logo_nav">
+      <img src="{{ env('APP_URL') }}/assets/images/header/logo.png" alt="Logo" class="logo_nav" width="100px">
+      <img src="{{ env('APP_URL') }}/assets/images/header/logo_text.png" alt="Logo Text" class="logo_nav" width="150px">
    </p>
    <p class="w-50 mt-4 text-end">
-      <img class="mx-3" src="https://via.placeholder.com/50x50.png/133183/ffffff?text=SM" alt="WhatsApp">
-      <img class="mx-3" src="https://via.placeholder.com/50x50.png/133183/ffffff?text=SM" alt="Facebook">
-      <img class="mx-3" src="https://via.placeholder.com/50x50.png/133183/ffffff?text=SM" alt="Instagram">
+      <img class="mx-1" src="{{ env('APP_URL') }}/assets/images/header/wa.png" alt="WhatsApp" width="75px">
+      <img class="mx-1" src="{{ env('APP_URL') }}/assets/images/header/face.png" alt="Facebook" width="75px">
+      <img class="mx-1" src="{{ env('APP_URL') }}/assets/images/header/insta.png" alt="Instagram" width="75px">
    </p>
 </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light bg-vision">

@@ -57,7 +57,7 @@ body{
 /* ///////////////////// NAVBAR //////////////////////// */
 
 .bg_navbar{
-    background-image: url("https://via.placeholder.com/1920x400.png/ff6915/f99760?text=Imagen%20Nav");
+    background-image: url("../images/header/fondo_navbar.jpg");
     background-repeat: no-repeat, repeat;
     background-position: center;
     background-color: #ff6915;
@@ -78,6 +78,7 @@ body{
     text-decoration: underline;
 }
 
+
 /* ///////////////////// FOOTER //////////////////////// */
 
 .a_mail{
@@ -87,7 +88,7 @@ body{
 }
 
 .bg-footer{
-    background-image: url("../images/footer/bg.jpg");
+    background-image: url("../images/footer/bg_lensvision.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-color: #092b82;
