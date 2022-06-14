@@ -15,3 +15,5 @@
 
 Route::get('/', array('as' => 'index', 'uses' => 'FrontEndController@index'));
 Route::get('us', array('as' => 'us', 'uses' => 'FrontEndController@us'));
+Route::get('services', array('as' => 'services', 'uses' => 'FrontEndController@services'));
+Route::get('contact', array('as' => 'contact', 'uses' => 'FrontEndController@contact'));

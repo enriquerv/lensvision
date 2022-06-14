@@ -29,6 +29,10 @@ body{
 
 }
 
+.dnone{
+    display: none;
+}
+
 .carousel-indicators button{
     width: 30px !important;
     height: 30px !important;
@@ -51,6 +55,13 @@ body{
     background-color: #e86b00 !important;
     border: 1px solid #e86b00;
     color: #092b82 !important;
+    font-weight: 800;
+}
+
+.btn-lens2{
+    background-color: #e86b00 !important;
+    border: 1px solid #e86b00;
+    color: #ffffff !important;
     font-weight: 800;
 }
 

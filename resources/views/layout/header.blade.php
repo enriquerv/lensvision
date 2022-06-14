@@ -23,10 +23,10 @@
                <a class="nav-link font-nav v-color pointer {{ $active == 'us' ? 'active_nav' : '' }}" href="{{ URL::route('us') }}">NOSOTROS</a>
             </li>
             <li class="nav-item w-25 text-center">
-               <a class="nav-link font-nav v-color pointer {{ $active == 'services' ? 'active_nav' : '' }}" href="#">SERVICIOS</a>
+               <a class="nav-link font-nav v-color pointer {{ $active == 'services' ? 'active_nav' : '' }}" href="{{ URL::route('services') }}">SERVICIOS</a>
             </li>
             <li class="nav-item w-25 text-center">
-               <a class="nav-link font-nav v-color pointer {{ $active == 'contact' ? 'active_nav' : '' }}" href="#">CONTACTO</a>
+               <a class="nav-link font-nav v-color pointer {{ $active == 'contact' ? 'active_nav' : '' }}" href="{{ URL::route('contact') }}">CONTACTO</a>
             </li>
          </ul>
       </div>

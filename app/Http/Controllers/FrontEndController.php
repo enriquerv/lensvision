@@ -19,4 +19,18 @@ class FrontEndController extends Controller
         $title = 'NOSOTROS';
         return view('us', compact('active', 'title'));
     }
+
+    public function services()
+    {
+        $active = 'services';
+        $title = 'SERVICIOS';
+        return view('services', compact('active', 'title'));
+    }
+
+    public function contact()
+    {
+        $active = 'contact';
+        $title = 'CONTACTO';
+        return view('contact', compact('active', 'title'));
+    }
 }
